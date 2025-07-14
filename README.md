@@ -20,8 +20,9 @@ This line checks if the user's input Name matches exactly any key in the diction
 Python is case-sensitive, so:
 "charlie" is not the same as "Charlie"
 "bob" is different from "Bob"
+"alice" is different from "Alice"
 
-4. If Student Found
+5. If Student Found
     print(Name + "'s marks:", Student_marks[Name])
 If the name exists in the dictionary:
  The program prints the student’s name along with their marks.
@@ -29,7 +30,12 @@ If the name exists in the dictionary:
 For example, if the user entered "Charlie", the output would be:
 Charlie's marks: 92
 
-5. If Student Not Found
+6. If Student Not Found
+else:
+    print("Student not found")
+if we put student name: "Rahul"
+"Rahul" is not in the dictionary.
+ So the output will be:
 Student not found
 
 Task-2
